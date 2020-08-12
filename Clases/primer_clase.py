@@ -6,3 +6,4 @@ print (nombre)
 print (edad)
 print (estatura)
 
+print (type(nombre))
