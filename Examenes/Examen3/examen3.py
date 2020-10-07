@@ -78,9 +78,9 @@ class Cardiologo (Doctor):
         self.habitaciones = habitacionesIng
         self.experiencia= experienciaIng
         self.salario = salarioIng
-        self.consulturio = consultorioIng
+        self.consultorio = consultorioIng
     def atributos (self):
-        print (f"Hola soy el Doctor {self.nombre} de sexo {self.sexo} y soy egresado de la universidad {self.universidad} con experiencia de {self.experiencia}, trabajo en el consultorio {self.consultorio} y tengo un salario de {self.salario}, hay {self.habitaciones} disponibles")
+        print (f"Hola soy el Doctor {self.nombre} de sexo {self.sexo} mi numero de identificación es {self.id} y soy egresado de la universidad {self.universidad} con experiencia de {self.experiencia}, trabajo en el consultorio {self.consultorio} y tengo un salario de {self.salario}, hay {self.habitaciones} disponibles")
     def sintomas (self, lista):
         for elemento in  lista:
             print (elemento)
