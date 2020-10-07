@@ -84,7 +84,7 @@ class Cardiologo (Doctor):
     def sintomas (self, lista):
         for elemento in  lista:
             print (elemento)
-            print ("Ya sé que tiene el paciente")
+        print ("Ya sé que tiene el paciente")
 
 doctor3=Cardiologo (654348326, "Pedro", "Masculino", "UPB", 7, 23, 8000000, 7)
 listaSintomas2 = ["tos", "dolor de cabeza", "fiebre", "malestar", "dolor de garganta"]
